@@ -32,6 +32,7 @@ class m130524_201442_init extends Migration
         $user->username = $userParams['username'];
         $user->email    = $userParams['email'];
         $user->setPassword($userParams['password']);
+        $user->generateAuthKey();
         echo '        > тестовый пользователь ' . $userParams['username'] . '@' . $userParams['password'];
         if ($user->save()) {
             echo " успешно создан.\n";
