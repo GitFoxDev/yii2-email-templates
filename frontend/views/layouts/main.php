@@ -37,7 +37,7 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-        ['label' => 'Шаблоны', 'url' => ['/templates/index']],
+        ['label' => 'Шаблоны', 'url' => ['/templates/list']],
     ];
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
