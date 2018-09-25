@@ -12,5 +12,5 @@ $this->params['breadcrumbs'][] = $title;
 <div class="templates-view">
 
     <h1><?= Html::encode($title) ?></h1>
-    <div class="content"><?= Html::encode($item->content) ?></div>
+    <code class="content"><?= nl2br(Html::encode($item->content)) ?></code>
 </div>
