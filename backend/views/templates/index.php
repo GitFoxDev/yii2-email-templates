@@ -9,8 +9,6 @@ use yii\grid\GridView;
 
 $title = 'Список шаблонов';
 $this->title = $title . ' / Админ. панель / ' . Yii::$app->name;
-
-\common\models\Templates::getDirectoryPath();
 ?>
 <div class="templates-index">
 

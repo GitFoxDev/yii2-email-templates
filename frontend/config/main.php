@@ -45,5 +45,6 @@ return [
         ],
         */
     ],
+    'defaultRoute' => '/templates/list',
     'params' => $params,
 ];
