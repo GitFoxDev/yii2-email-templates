@@ -1,6 +1,8 @@
 <?php
 return [
-    'aliases' => [
+    'name'     => 'E-mail шаблоны',
+    'language' => 'ru-RU',
+    'aliases'  => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
